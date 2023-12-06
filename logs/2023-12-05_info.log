@@ -1,0 +1,5 @@
+2023-12-05 17:19:57.609 | INFO     | db.sys_redis:init_redis_connect:57 - 连接redis异常 Error 61 connecting to 127.0.0.1:6379. Connection refused.
+2023-12-05 17:23:26.807 | INFO     | db.sys_redis:init_redis_connect:57 - 连接redis异常 Error 61 connecting to 127.0.0.1:6379. Connection refused.
+2023-12-05 17:24:21.056 | INFO     | db.sys_redis:init_redis_connect:57 - 连接redis异常 Error 61 connecting to 127.0.0.1:6379. Connection refused.
+2023-12-05 17:24:57.337 | INFO     | db.sys_redis:init_redis_connect:57 - 连接redis异常 AUTH <password> called without any password configured for the default user. Are you sure your configuration is correct?
+2023-12-05 17:27:44.985 | INFO     | db.sys_redis:init_redis_connect:57 - 连接redis异常 AUTH <password> called without any password configured for the default user. Are you sure your configuration is correct?

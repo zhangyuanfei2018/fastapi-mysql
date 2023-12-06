@@ -1,0 +1,8 @@
+report
+.vscode
+allure-report
+__pycache__
+.pytest_cache
+.pycharms
+.pycharm
+.idea

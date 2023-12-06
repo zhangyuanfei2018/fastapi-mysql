@@ -1,0 +1,23 @@
+version: "3" # 表示该docker-compose.yml文件使用的是Version 3
+services:  # 为project定义服务
+  redis:  # 指定服务名称
+    image: redis  # 指定服务所使用的镜像
+    ports:  # 暴露端口信息
+      - 6379:6379
+    environment:
+      - TZ=Asia/Shanghai # 设置时区
+    volumes:
+      - ~/data/redis:/data
+    privileged: true
+
+  mysql:
+    image: mysql
+    container_name: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root12345
+      MYSQL_USER: mysql
+      MYSQL_PASSWORD: root12345
+    volumes:
+      - ~/data/mysql:/var/lib/mysql
+    ports:
+      - "3306:3306"
